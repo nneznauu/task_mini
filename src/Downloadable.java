@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface Downloadable {
+    void download();
+    int getMaxDownloadsPerDay();
 }
